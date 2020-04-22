@@ -38,7 +38,7 @@ public class CasesActivity extends AppCompatActivity {
 
         buttonRecovered = findViewById(R.id.buttonRecuperados);
         buttonRecovered.setOnClickListener(new View.OnClickListener(){
-            
+
             @Override
             public void onClick (View v){
                 moveToRecoveredActivity();

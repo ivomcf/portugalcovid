@@ -30,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(MainActivity.this, SupportActivity.class);
         startActivity(intent);
-        
+
     }
 }

@@ -17,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        buttonCases = findViewById(R.id.buttonCases);
+        buttonCases.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v){
+                moveToCasesActivity();
+            }
+        });
+
         buttonSuporte = findViewById(R.id.buttonSupport);
         buttonSuporte.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -31,5 +39,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, SupportActivity.class);
         startActivity(intent);
 
+    }
+
+    private void moveToCasesActivity(){
+
+        Intent intent = new Intent(MainActivity.this, CasesActivity.class);
+        startActivity(intent);
     }
 }

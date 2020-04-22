@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CasesActivity"></activity>
+        <activity android:name=".RecoveredActivity"></activity>
+        <activity android:name=".SuspectedActivity" />
+        <activity android:name=".ConfirmedActivity" />
+        <activity android:name=".CasesActivity" />
         <activity android:name=".SupportActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

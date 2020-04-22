@@ -3,4 +3,8 @@
     <string name="portugal_covid_19">Portugal Covid-19</string>
     <string name="ajuda_suporte"><![CDATA[Ajuda & Suporte]]></string>
     <string name="casos_de_covid">Casos de Covid</string>
+    <string name="casos_de_covid_19">Casos de Covid-19</string>
+    <string name="suspeitos">Suspeitos</string>
+    <string name="confirmados">Confirmados</string>
+    <string name="recuperados">Recuperados</string>
 </resources>

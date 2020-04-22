@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".SuspectedActivity">
 
+    <TextView
+        android:id="@+id/textViewSuspected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casos Suspeitos"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="109dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

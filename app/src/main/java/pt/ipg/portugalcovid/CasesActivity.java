@@ -25,11 +25,42 @@ public class CasesActivity extends AppCompatActivity {
                 moveToConfirmedActivity();
             }
         });
+
+        buttonSuspected = findViewById(R.id.buttonSuspeitos);
+        buttonSuspected.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v){
+                moveToSuspectedActivity();
+            }
+        });
+
+        buttonRecovered = findViewById(R.id.buttonRecuperados);
+        buttonRecovered.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v){
+                moveToRecoveredActivity();
+            }
+        });
+
     }
 
     private void moveToConfirmedActivity(){
 
         Intent intent = new Intent(CasesActivity.this, ConfirmedActivity.class);
+        startActivity(intent);
+
+    }
+
+    private void moveToSuspectedActivity(){
+
+        Intent intent = new Intent(CasesActivity.this, SuspectedActivity.class);
+        startActivity(intent);
+
+    }
+
+    private void moveToRecoveredActivityActivity(){
+
+        Intent intent = new Intent(CasesActivity.this, SuspectedActivity.class);
         startActivity(intent);
 
     }

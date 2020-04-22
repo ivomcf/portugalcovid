@@ -20,6 +20,7 @@ public class CasesActivity extends AppCompatActivity {
 
         buttonConfirmed = findViewById(R.id.buttonConfirmados);
         buttonConfirmed.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick (View v){
                 moveToConfirmedActivity();
@@ -28,6 +29,7 @@ public class CasesActivity extends AppCompatActivity {
 
         buttonSuspected = findViewById(R.id.buttonSuspeitos);
         buttonSuspected.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick (View v){
                 moveToSuspectedActivity();
@@ -36,6 +38,7 @@ public class CasesActivity extends AppCompatActivity {
 
         buttonRecovered = findViewById(R.id.buttonRecuperados);
         buttonRecovered.setOnClickListener(new View.OnClickListener(){
+            
             @Override
             public void onClick (View v){
                 moveToRecoveredActivity();
@@ -58,9 +61,9 @@ public class CasesActivity extends AppCompatActivity {
 
     }
 
-    private void moveToRecoveredActivityActivity(){
+    private void moveToRecoveredActivity(){
 
-        Intent intent = new Intent(CasesActivity.this, SuspectedActivity.class);
+        Intent intent = new Intent(CasesActivity.this, RecoveredActivity.class);
         startActivity(intent);
 
     }

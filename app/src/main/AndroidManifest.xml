@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecoveredActivity"></activity>
+        <activity android:name=".DisplayDataActivity"></activity>
+        <activity android:name=".RecoveredActivity" />
         <activity android:name=".SuspectedActivity" />
         <activity android:name=".ConfirmedActivity" />
         <activity android:name=".CasesActivity" />

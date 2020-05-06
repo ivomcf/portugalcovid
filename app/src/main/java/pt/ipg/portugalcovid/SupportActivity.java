@@ -52,7 +52,7 @@ public class SupportActivity extends AppCompatActivity {
             return;
         }
 
-        Intent intent = new Intent(this, DisplayMessagaActivity.class); //TODO Nova activity
+        Intent intent = new Intent(this, DisplayDataActivity.class);
         startActivity(intent);
     }
 }
